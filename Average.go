@@ -9,7 +9,7 @@ func average(a []int) float64{
 		return 0
 	}
 
-	var sum int = 0 
+	var sum int 
 
 	for i := 0; i < len(a); i++ {
 		sum += a[i] 
